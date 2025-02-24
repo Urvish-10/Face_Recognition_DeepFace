@@ -13,7 +13,7 @@ Before running the code, make sure you have the following dependencies installed
 You can install the required dependencies by using the following command:
 
 ```
-pip install deepface opencv-python matplotlib numpy
+pip install -r requirements.txt
 ```
 
 # Usage
@@ -64,3 +64,8 @@ This code is provided under the MIT License. Feel free to use and modify it as p
 
 # Acknowledgments
 The code utilizes the [DeepFace](https://github.com/serengil/deepface) library for face recognition, which is developed by serengil on GitHub. Please refer to their repository for more information about the DeepFace library.
+
+# TODO
+- Add face embedding extraction functionality
+- Add face recognition using embeddings
+- Add modularity
